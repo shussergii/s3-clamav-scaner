@@ -82,6 +82,6 @@ def get_matching_s3_keys(bucket, prefix='', suffix=''):
         except KeyError:
             break
 
-for key in get_matching_s3_keys(bucket='housestark-dev', prefix='', suffix='.jpg'):
+for key in get_matching_s3_keys(bucket='S3-bucket-name-for-scan', prefix='', suffix=''):
     print(key)
     
